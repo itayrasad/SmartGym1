@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "410458131924",
+    "firebase_url": "https://smartgym1-e9811.firebaseio.com",
+    "project_id": "smartgym1-e9811",
+    "storage_bucket": "smartgym1-e9811.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410458131924:android:89f8e251c048b96d8c1a41",
+        "android_client_info": {
+          "package_name": "com.example.smartgym1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410458131924-radi9nsp70m4tb35hu7uap5u7vjegc7g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartgym1",
+            "certificate_hash": "2fb0e89ce6ed3e1be760f7234fda1fa2f0dbffee"
+          }
+        },
+        {
+          "client_id": "410458131924-967jegmsbt3d0gt4vt8e33vb9ga8gvu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlQsrXO-68zBwgASG9FXNGlavz51mKcVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410458131924-967jegmsbt3d0gt4vt8e33vb9ga8gvu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

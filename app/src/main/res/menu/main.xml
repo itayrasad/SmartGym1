@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuStats"
+        android:title="stats"
+        android:orderInCategory="100"
+        />
+
+    <item
+        android:id="@+id/menuHistory"
+        android:title="history"
+        android:orderInCategory="200"
+        />
+
+    <item
+        android:id="@+id/menuProfile"
+        android:title="profile"
+        android:orderInCategory="300"
+        />
+
+    <item
+        android:id="@+id/menuCredits"
+        android:title="credits"
+        android:orderInCategory="400"
+        />
+</menu>
