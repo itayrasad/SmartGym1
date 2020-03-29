@@ -187,7 +187,7 @@ public class LoginOrRegisterActivity extends AppCompatActivity {
                                 FirebaseUser user = refAuth.getCurrentUser();
                                 uid = user.getUid();
                                 userdb=new User(name,email,phone,uid);
-                                refUsers.child(name).setValue(userdb);
+                                refUsers.child(email.replace("."," ")).setValue(userdb);
                                 Toast.makeText(LoginOrRegisterActivity.this, "Successful registration", Toast.LENGTH_LONG).show();
                                 Intent si = new Intent(LoginOrRegisterActivity.this,MainActivity.class);
                                 startActivity(si);
